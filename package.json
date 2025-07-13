@@ -1,0 +1,27 @@
+{
+  "name": "TeleBot",
+  "version": "1.0.0",
+  "description": "SimpleBot Tele X WhatsApp.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+  "telebot",
+  "wabot"
+  "simplebot"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "github:kiuur/bails",
+    "axios": "^1.9.0",
+    "chalk": "^4.1.2",
+    "fs": "^0.0.1-security",
+    "moment-timezone": "^0.5.48",
+    "node-fetch": "^3.3.2",
+    "path": "^0.12.7",
+    "telegraf": "^4.16.3"
+  }
+}
